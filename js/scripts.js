@@ -16,7 +16,7 @@ exist and can be pushed into the array
 
 var indexOfName = allNames.indexOf(newName);
 
-if (indexOfName ==-1) {
+if (indexOfName == -1) {
 	allNames.push(newName);
 	console.log(allNames);
 } else {
